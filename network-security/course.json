@@ -1,0 +1,48 @@
+{
+  "title": "Network Security Fundamentals",
+  "description": "Basics of firewalls, intrusion detection, and port scanning.",
+  "category": "network_security",
+  "type": "video",
+  "difficulty": "beginner",
+  "thumbnail": "thumbnail.png",
+  "duration": 60,
+  "securityScoreBoost": 15,
+  "isActive": true,
+  "lessons": [
+    {
+      "title": "Intro to Network Security",
+      "type": "text",
+      "content": "Network security involves protecting infrastructure from threats...",
+      "order": 1,
+      "duration": 10,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Intro Video",
+          "url": "./resources/intro-video.mp4"
+        }
+      ],
+      "assessment": []
+    },
+    {
+      "title": "Firewalls and Port Scanning",
+      "type": "text",
+      "content": "Firewalls block unauthorized access and monitor traffic...",
+      "order": 2,
+      "duration": 20,
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Firewall Diagram",
+          "url": "./resources/firewall-diagram.pdf"
+        },
+        {
+          "type": "image",
+          "title": "Port Scanning",
+          "url": "./resources/port-scanning.png"
+        }
+      ],
+      "assessment": []
+    }
+  ]
+}

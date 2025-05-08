@@ -1,0 +1,78 @@
+{
+  "title": "Email Security",
+  "description": "Learn how to protect email communication from common threats.",
+  "category": "email_security",
+  "type": "video",
+  "difficulty": "intermediate",
+  "thumbnail": "thumbnail.jpg",
+  "duration": 45,
+  "securityScoreBoost": 10,
+  "isActive": true,
+  "lessons": [
+    {
+      "title": "Understanding Phishing",
+      "type": "text",
+      "content": "Phishing is a type of social engineering attack...",
+      "order": 1,
+      "duration": 10,
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "Phishing Examples",
+          "url": "./resources/phishing-example.png"
+        }
+      ],
+      "assessment": [
+        {
+          "questions": [
+            {
+              "question": "What is the main goal of a phishing attack?",
+              "options": [
+                { "text": "To update antivirus software", "isCorrect": false },
+                { "text": "To debug system errors", "isCorrect": false },
+                { "text": "To improve network speed", "isCorrect": false },
+                { "text": "To steal sensitive data", "isCorrect": true }
+              ],
+              "difficulty": "easy",
+              "category": "email_security",
+              "userId": "system"
+            }
+          ],
+          "timeLimit": 30
+        }
+      ]
+    },
+    {
+      "title": "SPF, DKIM, and DMARC",
+      "type": "video",
+      "content": "These protocols help validate sender identity...",
+      "order": 2,
+      "duration": 15,
+      "resources": [
+        {
+          "type": "pdf",
+          "title": "DMARC Policy",
+          "url": "./resources/dmarc-policy.pdf"
+        }
+      ],
+      "assessment": []
+    }
+  ],
+  "assessment": [
+    {
+      "questions": [
+        {
+          "question": "Which protocol prevents spoofing?",
+          "options": [
+            { "text": "DKIM", "isCorrect": true },
+            { "text": "TLS", "isCorrect": false }
+          ],
+          "difficulty": "medium",
+          "category": "email_security",
+          "userId": "system"
+        }
+      ],
+      "timeLimit": 45
+    }
+  ]
+}
