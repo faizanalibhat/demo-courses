@@ -24,21 +24,15 @@
       ],
       "assessment": [
         {
-          "questions": [
-            {
-              "question": "What is the main goal of a phishing attack?",
-              "options": [
-                { "text": "To update antivirus software", "isCorrect": false },
-                { "text": "To debug system errors", "isCorrect": false },
-                { "text": "To improve network speed", "isCorrect": false },
-                { "text": "To steal sensitive data", "isCorrect": true }
-              ],
-              "difficulty": "easy",
-              "category": "email_security",
-              "userId": "system"
-            }
+          "question": "What is the main goal of a phishing attack?",
+          "options": [
+            { "text": "To update antivirus software", "isCorrect": false },
+            { "text": "To debug system errors", "isCorrect": false },
+            { "text": "To improve network speed", "isCorrect": false },
+            { "text": "To steal sensitive data", "isCorrect": true }
           ],
-          "timeLimit": 30
+          "difficulty": "easy",
+          "category": "email_security"
         }
       ]
     },
@@ -60,19 +54,13 @@
   ],
   "assessment": [
     {
-      "questions": [
-        {
-          "question": "Which protocol prevents spoofing?",
-          "options": [
-            { "text": "DKIM", "isCorrect": true },
-            { "text": "TLS", "isCorrect": false }
-          ],
-          "difficulty": "medium",
-          "category": "email_security",
-          "userId": "system"
-        }
+      "question": "Which protocol prevents spoofing?",
+      "options": [
+        { "text": "DKIM", "isCorrect": true },
+        { "text": "TLS", "isCorrect": false }
       ],
-      "timeLimit": 45
+      "difficulty": "medium",
+      "category": "email_security"
     }
   ]
 }
