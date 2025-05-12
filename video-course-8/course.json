@@ -1,0 +1,49 @@
+{
+  "title": "Secure Communication Practices 8",
+  "description": "Learn how to protect communication channels in the digital world.",
+  "category": "secure_communication",
+  "type": "video",
+  "difficulty": "intermediate",
+  "thumbnail": "thumbnail.jpg",
+  "duration": 40,
+  "securityScoreBoost": 7,
+  "isActive": true,
+  "lessons": [
+    {
+      "title": "Encryption Basics",
+      "type": "text",
+      "content": "Encryption helps keep your messages private and secure.",
+      "order": 1,
+      "duration": 10,
+      "resources": [],
+      "assessment": [
+        {
+          "question": "What is the purpose of encryption?",
+          "options": [
+            { "text": "To compress files", "isCorrect": false },
+            { "text": "To speed up downloads", "isCorrect": false },
+            { "text": "To ensure message privacy", "isCorrect": true }
+          ],
+          "difficulty": "easy",
+          "category": "secure_communication"
+        }
+      ]
+    },
+    {
+      "title": "Using Secure Email",
+      "type": "video",
+      "content": "This video explains how to use secure email practices effectively.",
+      "order": 2,
+      "duration": 15,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Secure Email Practices",
+          "url": "./resources/sample-video.mp4"
+        }
+      ],
+      "assessment": []
+    }
+  ],
+  "assessment": []
+}

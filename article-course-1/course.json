@@ -1,0 +1,40 @@
+{
+  "title": "Understanding Social Engineering 1",
+  "description": "This course explains social engineering tactics used in cyber attacks.",
+  "category": "social_engineering",
+  "type": "text",
+  "difficulty": "beginner",
+  "thumbnail": "thumbnail.png",
+  "duration": 25,
+  "securityScoreBoost": 5,
+  "isActive": true,
+  "lessons": [
+    {
+      "title": "What is Social Engineering?",
+      "type": "text",
+      "content": "Social engineering is the art of manipulating people to give up confidential information.",
+      "order": 1,
+      "duration": 10,
+      "resources": [
+        {
+          "type": "image",
+          "title": "Social Engineering Tactics",
+          "url": "./resources/article-image.png"
+        }
+      ],
+      "assessment": [
+        {
+          "question": "What is a common goal of social engineering?",
+          "options": [
+            { "text": "To crash servers", "isCorrect": false },
+            { "text": "To manipulate users", "isCorrect": true },
+            { "text": "To increase bandwidth", "isCorrect": false }
+          ],
+          "difficulty": "easy",
+          "category": "social_engineering"
+        }
+      ]
+    }
+  ],
+  "assessment": []
+}
