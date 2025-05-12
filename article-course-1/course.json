@@ -1,20 +1,20 @@
 {
   "title": "Understanding Social Engineering 1",
-  "description": "This course explains social engineering tactics used in cyber attacks.",
+  "description": "A comprehensive guide to common social engineering techniques used by attackers.",
   "category": "social_engineering",
   "type": "article",
   "difficulty": "beginner",
   "thumbnail": "thumbnail.png",
-  "duration": 5,
+  "duration": 18,
   "securityScoreBoost": 5,
   "isActive": true,
   "lessons": [
     {
       "title": "What is Social Engineering?",
       "type": "text",
-      "content": "Social engineering is the art of manipulating people to give up confidential information.",
+      "content": "Social engineering is the art of manipulating people to give up confidential information or perform actions that compromise security.",
       "order": 1,
-      "duration": 10,
+      "duration": 5,
       "resources": [
         {
           "type": "image",
@@ -34,6 +34,36 @@
           "category": "social_engineering"
         }
       ]
+    },
+    {
+      "title": "Types of Social Engineering Attacks",
+      "type": "text",
+      "content": "Popular attack types include phishing, pretexting, baiting, and tailgating.",
+      "order": 2,
+      "duration": 6,
+      "resources": [
+        {
+          "type": "image",
+          "title": "Attack Types",
+          "url": "./resources/article-image.png"
+        }
+      ],
+      "assessment": []
+    },
+    {
+      "title": "Preventing Social Engineering",
+      "type": "text",
+      "content": "Educating employees, using multi-factor authentication, and recognizing suspicious behavior are key defense strategies.",
+      "order": 3,
+      "duration": 7,
+      "resources": [
+        {
+          "type": "image",
+          "title": "Prevention Tips",
+          "url": "./resources/article-image.png"
+        }
+      ],
+      "assessment": []
     }
   ],
   "assessment": []
