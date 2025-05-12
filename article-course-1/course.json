@@ -2,10 +2,10 @@
   "title": "Understanding Social Engineering 1",
   "description": "This course explains social engineering tactics used in cyber attacks.",
   "category": "social_engineering",
-  "type": "text",
+  "type": "article",
   "difficulty": "beginner",
   "thumbnail": "thumbnail.png",
-  "duration": 25,
+  "duration": 5,
   "securityScoreBoost": 5,
   "isActive": true,
   "lessons": [
