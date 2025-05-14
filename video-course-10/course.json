@@ -15,7 +15,11 @@
       "content": "Encryption helps keep your messages private and secure.",
       "order": 1,
       "duration": 10,
-      "resources": [],
+      "resources": [{
+          "type": "video",
+          "title": "Secure Email Practices",
+          "url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        }],
       "assessment": [
         {
           "question": "What is the purpose of encryption?",

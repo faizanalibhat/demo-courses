@@ -19,7 +19,7 @@
         {
           "type": "image",
           "title": "Social Engineering Tactics",
-          "url": "https://www.w3schools.com/html/mov_bbb.mp4"
+          "url": "./resources/article-image.png"
         }
       ],
       "assessment": [
@@ -45,7 +45,7 @@
         {
           "type": "image",
           "title": "Attack Types",
-          "url": "https://www.w3schools.com/html/mov_bbb.mp4"
+          "url": "./resources/article-image.png"
         }
       ],
       "assessment": []
