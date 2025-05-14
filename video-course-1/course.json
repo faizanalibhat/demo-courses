@@ -15,18 +15,29 @@
       "content": "Encryption helps keep your messages private and secure.",
       "order": 1,
       "duration": 10,
-      "resources": [{
+      "resources": [
+        {
           "type": "video",
           "title": "Secure Email Practices",
-          "url": "https://www.w3schools.com/html/mov_bbb.mp4"
-        }],
+          "url": "./resources/mov_bbb.mp4"
+        }
+      ],
       "assessment": [
         {
           "question": "What is the purpose of encryption?",
           "options": [
-            { "text": "To compress files", "isCorrect": false },
-            { "text": "To speed up downloads", "isCorrect": false },
-            { "text": "To ensure message privacy", "isCorrect": true }
+            {
+              "text": "To compress files",
+              "isCorrect": false
+            },
+            {
+              "text": "To speed up downloads",
+              "isCorrect": false
+            },
+            {
+              "text": "To ensure message privacy",
+              "isCorrect": true
+            }
           ],
           "difficulty": "easy",
           "category": "secure_communication"
